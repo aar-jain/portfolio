@@ -48,9 +48,9 @@ html {
 }
 
 .box {
-  border: 2px solid red;
-  height: 250px;
-  width: 250px;
+  color: red;
+  font-size: 2rem;
+  font-weight: 500;
   position: absolute;
 }
 
