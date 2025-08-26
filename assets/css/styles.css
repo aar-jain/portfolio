@@ -320,7 +320,7 @@ h3 + .subheading {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
-  overflow: visible;
+  overflow: hidden;
   padding: 32px 0 40px;
   position: relative;
   width: 100%;
@@ -428,6 +428,7 @@ h3 + .subheading {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 .about__text--title {
   font-size: 3rem;
@@ -472,6 +473,7 @@ h3 + .subheading {
 }
 .profile--code-wrap {
   width: 55%;
+  overflow: hidden;
 }
 .profile--text {
   font-size: clamp(18px, 6vw, 32px);
@@ -1078,6 +1080,19 @@ h3 + .subheading {
   }
   .contact h1 {
     font-size: 100px;
+  }
+  #banner {
+    justify-content: center;
+    gap: 20px;
+  }
+  #banner .banner__spline-wrap {
+    z-index: -1;
+  }
+  #banner .fluid-fit {
+    text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.8);
+  }
+  .fluid-fit {
+    font-size: clamp(32px, 9vw, 82px);
   }
 }
 
