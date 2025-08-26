@@ -2,8 +2,8 @@
     {
         "title": "Kiah by K",
         "url": "https://www.kiahbyk.com/",
-        "image": "/assets/projects/Kiah-by-K.png",
-        "video": "/assets/projects/Kiah-by-K.webm",
+        "image": "../projects/Kiah-by-K.png",
+        "video": "../projects/Kiah-by-K.webm",
         "tags": [
             "Fashion",
             "eCommerce",
@@ -14,8 +14,8 @@
     {
         "title": "Huroos",
         "url": "https://www.huroos.com/",
-        "image": "/assets/projects/Huroos-srl.png",
-        "video": "/assets/projects/Huroos-srl.webm",
+        "image": "../projects/Huroos-srl.png",
+        "video": "../projects/Huroos-srl.webm",
         "tags": [
             "UI/UX",
             "Frontend",
@@ -27,8 +27,8 @@
     {
         "title": "D'Ieteren Energy",
         "url": "https://www.dieterenenergy.be/",
-        "image": "/assets/projects/D-Ieteren-Energy.png",
-        "video": "/assets/projects/D-Ieteren-Energy.webm",
+        "image": "../projects/D-Ieteren-Energy.png",
+        "video": "../projects/D-Ieteren-Energy.webm",
         "tags": [
             "Energy",
             "Frontend",
@@ -40,8 +40,8 @@
     {
         "title": "Fleur de Cafe",
         "url": "https://fleurdecafe.odoo.com/",
-        "image": "/assets/projects/Fleur-de-Café.png",
-        "video": "/assets/projects/Fleur-de-Café.webm",
+        "image": "../projects/Fleur-de-Café.png",
+        "video": "../projects/Fleur-de-Café.webm",
         "tags": [
             "Odoo",
             "eCommerce",
@@ -52,8 +52,8 @@
     {
         "title": "Foockey",
         "url": "https://www.foockey.com/",
-        "image": "/assets/projects/Foockey.png",
-        "video": "/assets/projects/Foockey.webm",
+        "image": "../projects/Foockey.png",
+        "video": "../projects/Foockey.webm",
         "tags": [
             "UI/UX",
             "Odoo",
@@ -64,8 +64,8 @@
     {
         "title": "ARDRA Lab",
         "url": "https://www.ardralab.com/",
-        "image": "/assets/projects/ARDRA-Lab.png",
-        "video": "/assets/projects/ARDRA-Lab.webm",
+        "image": "../projects/ARDRA-Lab.png",
+        "video": "../projects/ARDRA-Lab.webm",
         "tags": [
             "Healthcare",
             "Frontend",
@@ -76,8 +76,8 @@
     {
         "title": "Banana Crunch",
         "url": "https://www.bananacrunch.in/",
-        "image": "/assets/projects/Banana-Crunch.png",
-        "video": "/assets/projects/Banana-Crunch.webm",
+        "image": "../projects/Banana-Crunch.png",
+        "video": "../projects/Banana-Crunch.webm",
         "tags": [
             "Food & Beverages",
             "eCommerce",
@@ -88,8 +88,8 @@
     {
         "title": "FitFizz",
         "url": "https://www.fitfizz.in/",
-        "image": "/assets/projects/FitFizz-India.png",
-        "video": "/assets/projects/FitFizz-India.webm",
+        "image": "../projects/FitFizz-India.png",
+        "video": "../projects/FitFizz-India.webm",
         "tags": [
             "Fitness",
             "Wellness",
@@ -100,8 +100,8 @@
     {
         "title": "Hop Electric",
         "url": "https://hopelectric.in/",
-        "image": "/assets/projects/Hop-Electric.png",
-        "video": "/assets/projects/Hop-Electric.webm",
+        "image": "../projects/Hop-Electric.png",
+        "video": "../projects/Hop-Electric.webm",
         "tags": [
             "Automotive",
             "Corporate",
@@ -112,8 +112,8 @@
     {
         "title": "Purdy & Figg",
         "url": "https://purdyandfigg.com/",
-        "image": "/assets/projects/Purdy-Figg.png",
-        "video": "/assets/projects/Purdy-Figg.webm",
+        "image": "../projects/Purdy-Figg.png",
+        "video": "../projects/Purdy-Figg.webm",
         "tags": [
             "Shopify",
             "eCommerce",
@@ -124,8 +124,8 @@
     {
         "title": "HANX",
         "url": "https://www.hanxofficial.com/",
-        "image": "/assets/projects/HANX.png",
-        "video": "/assets/projects/HANX.webm",
+        "image": "../projects/HANX.png",
+        "video": "../projects/HANX.webm",
         "tags": [
             "Shopify",
             "Healthcare",
@@ -136,8 +136,8 @@
     {
         "title": "Mind Your Language",
         "url": "https://www.mindyourlanguage.com/",
-        "image": "/assets/projects/MYL.png",
-        "video": "/assets/projects/MYL.webm",
+        "image": "../projects/MYL.png",
+        "video": "../projects/MYL.webm",
         "tags": [
             "Education",
             "Corporate",
@@ -148,7 +148,7 @@
     {
         "title": "MYL Console",
         "url": "https://console.mylglobal.com/",
-        "image": "/assets/projects/Console MYL.png",
+        "image": "../projects/Console MYL.png",
         "video": "false",
         "tags": [
             "Web App",

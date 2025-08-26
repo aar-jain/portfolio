@@ -81,7 +81,7 @@ window.onload = function () {
   }
 
   // Load JSON once
-  fetch("../../assets/projects.json")
+  fetch("projects.json")
     .then(response => response.json())
     .then(projects => {
       allProjects = projects;
