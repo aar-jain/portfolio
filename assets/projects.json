@@ -1,0 +1,172 @@
+[
+    {
+        "title": "Kiah by K",
+        "url": "https://www.kiahbyk.com/",
+        "image": "/assets/projects/Kiah-by-K.png",
+        "video": "/assets/projects/Kiah-by-K.webm",
+        "tags": [
+            "Fashion",
+            "eCommerce",
+            "UI Design"
+        ],
+        "featured": false
+    },
+    {
+        "title": "Huroos",
+        "url": "https://www.huroos.com/",
+        "image": "/assets/projects/Huroos-srl.png",
+        "video": "/assets/projects/Huroos-srl.webm",
+        "tags": [
+            "UI/UX",
+            "Frontend",
+            "Odoo",
+            "Deployment"
+        ],
+        "featured": true
+    },
+    {
+        "title": "D'Ieteren Energy",
+        "url": "https://www.dieterenenergy.be/",
+        "image": "/assets/projects/D-Ieteren-Energy.png",
+        "video": "/assets/projects/D-Ieteren-Energy.webm",
+        "tags": [
+            "Energy",
+            "Frontend",
+            "Odoo",
+            "Deployment"
+        ],
+        "featured": false
+    },
+    {
+        "title": "Fleur de Cafe",
+        "url": "https://fleurdecafe.odoo.com/",
+        "image": "/assets/projects/Fleur-de-Café.png",
+        "video": "/assets/projects/Fleur-de-Café.webm",
+        "tags": [
+            "Odoo",
+            "eCommerce",
+            "UI/UX"
+        ],
+        "featured": false
+    },
+    {
+        "title": "Foockey",
+        "url": "https://www.foockey.com/",
+        "image": "/assets/projects/Foockey.png",
+        "video": "/assets/projects/Foockey.webm",
+        "tags": [
+            "UI/UX",
+            "Odoo",
+            "eCommerce"
+        ],
+        "featured": false
+    },
+    {
+        "title": "ARDRA Lab",
+        "url": "https://www.ardralab.com/",
+        "image": "/assets/projects/ARDRA-Lab.png",
+        "video": "/assets/projects/ARDRA-Lab.webm",
+        "tags": [
+            "Healthcare",
+            "Frontend",
+            "UI/UX"
+        ],
+        "featured": true
+    },
+    {
+        "title": "Banana Crunch",
+        "url": "https://www.bananacrunch.in/",
+        "image": "/assets/projects/Banana-Crunch.png",
+        "video": "/assets/projects/Banana-Crunch.webm",
+        "tags": [
+            "Food & Beverages",
+            "eCommerce",
+            "UI/UX"
+        ],
+        "featured": true
+    },
+    {
+        "title": "FitFizz",
+        "url": "https://www.fitfizz.in/",
+        "image": "/assets/projects/FitFizz-India.png",
+        "video": "/assets/projects/FitFizz-India.webm",
+        "tags": [
+            "Fitness",
+            "Wellness",
+            "Frontend"
+        ],
+        "featured": true
+    },
+    {
+        "title": "Hop Electric",
+        "url": "https://hopelectric.in/",
+        "image": "/assets/projects/Hop-Electric.png",
+        "video": "/assets/projects/Hop-Electric.webm",
+        "tags": [
+            "Automotive",
+            "Corporate",
+            "UI/UX"
+        ],
+        "featured": true
+    },
+    {
+        "title": "Purdy & Figg",
+        "url": "https://purdyandfigg.com/",
+        "image": "/assets/projects/Purdy-Figg.png",
+        "video": "/assets/projects/Purdy-Figg.webm",
+        "tags": [
+            "Shopify",
+            "eCommerce",
+            "Sustainability"
+        ],
+        "featured": true
+    },
+    {
+        "title": "HANX",
+        "url": "https://www.hanxofficial.com/",
+        "image": "/assets/projects/HANX.png",
+        "video": "/assets/projects/HANX.webm",
+        "tags": [
+            "Shopify",
+            "Healthcare",
+            "eCommerce"
+        ],
+        "featured": false
+    },
+    {
+        "title": "Mind Your Language",
+        "url": "https://www.mindyourlanguage.com/",
+        "image": "/assets/projects/MYL.png",
+        "video": "/assets/projects/MYL.webm",
+        "tags": [
+            "Education",
+            "Corporate",
+            "UI/UX"
+        ],
+        "featured": false
+    },
+    {
+        "title": "MYL Console",
+        "url": "https://console.mylglobal.com/",
+        "image": "/assets/projects/Console MYL.png",
+        "video": "false",
+        "tags": [
+            "Web App",
+            "Dashboard",
+            "Frontend"
+        ],
+        "featured": false
+    },
+    {
+        "title": "Emma & Chloé",
+        "url": "https://www.emma-chloe.com/",
+        "image": "https://placehold.co/600x400?text=Emma+%26+Chloe",
+        "video": "false",
+        "tags": [
+            "Shopify",
+            "Fashion",
+            "eCommerce"
+        ],
+        "featured": false
+    }
+]

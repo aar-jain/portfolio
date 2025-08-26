@@ -12,7 +12,10 @@
         document.documentElement.classList.add('js');
     </script>
 
+    <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <meta name="description" content="Portfolio by Rajat Jain">
     <meta property="og:title" content="Creating design with code">
@@ -33,11 +36,372 @@
 </head>
 
 <body>
-    <div id="ex1" class="container">
-        <div id="ex1-layer" class="box">Hello</div>
-    </div>
-    <!-- Content -->
-    <script src="./assets/js/script.js" type="module"></script>
+    <header data-aos="flip-down" data-aos-duration="700" data-aos-offset="500" data-aos-anchor="body">
+        <nav class="nav">
+            <div class="nav--parts nav--left">
+                <!-- <a href="javascript:void(0)" class="link link--before--nodecoration nav__branding">
+                    <span><span class="font--lay font--medium">Rajat</span><span
+                            class="font--maz font--italic">Designs</span></span>
+                </a> -->
+            </div>
+
+            <div class="nav--parts nav--right">
+                <a href="#about" class="nav--links link link--leda" data-text="&nbsp;&nbsp;&nbsp;About">
+                    <span class="font--maz font--italic"><i class="customlineheight">01&nbsp;</i><i
+                            class="font--lay font--style-normal">About</i></span>
+                </a>
+                <a href="#projects" class="nav--links link link--leda" data-text="&nbsp;&nbsp;&nbsp;Projects">
+                    <span class="font--maz font--italic"><i class="customlineheight">02&nbsp;</i><i
+                            class="font--lay font--style-normal">Projects</i></span>
+                </a>
+                <a href="#contact" class="nav--links link link--leda" data-text="&nbsp;&nbsp;&nbsp;Contact">
+                    <span class="font--maz font--italic"><i class="customlineheight">03&nbsp;</i><i
+                            class="font--lay font--style-normal">Contact</i></span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-2 font--mono">&nbsp;&nbsp;[VIEW]&nbsp;&nbsp;</div>
+    <div id="main">
+        <div class="container banner">
+            <div class="banner__spline-wrap">
+                <spline-viewer url="https://prod.spline.design/Hst3v8r75DO4cI0r/scene.splinecode"></spline-viewer>
+            </div>
+            <div class="banner__grain-overlay"></div>
+            <div class="banner__text text--left text--white contained" data-text-position="top">
+                <p class="banner__text--para" data-aos="fade-right" data-aos-duration="700" data-aos-offset="200"
+                    data-aos-anchor=".banner__text"><span class="square"></span>UI/UX Developer</p>
+                <p data-aos="fade-left" data-aos-duration="700" data-aos-offset="400" data-aos-anchor=".banner__text">
+                    Functionality & <a href="javascript:void(0)" class="link link--nopointer link--helike"><span
+                            class="font--maz font--style-normal font--italic">Aesthetics</span></a></p>
+            </div>
+            <div class="fluid-fit banner__text text--left text--white contained" data-text-position="bottom">
+                <h1>I am a <div class="d-inline-block"><a href="javascript:void(0)"
+                            class="link link--nopointer link--helike"><span
+                                class="font--maz font--italic changeonhover position--absolute">&nbsp;Designer</span><span
+                                class="font--maz font--italic visibility--hidden">Developer</span></a></div>
+                    chaining</br>
+                    functionality with <span class="font--maz font--italic">aesthetics</span></h1>
+            </div><!-- Content -->
+        </div>
+        <div class="container about" id="about">
+            <div class="about__text text--center contained">
+                <p class="about__text--title font--mono" data-aos="fade-down" data-aos-duration="700"
+                    data-aos-offset="1000" data-aos-anchor=".banner__text">{ ABOUT }</p>
+                <p class="about__text--para" data-aos="fade-down" data-aos-duration="700" data-aos-offset="1200"
+                    data-aos-anchor=".banner__text">
+                    I combine refined <span class="font--maz font--italic">design</span> sensibilities with robust <span
+                        class="font--maz font--italic">front-end expertise</span> to deliver digital experiences
+                    that are <span class="font--maz font--italic">as functional as they are visually compelling.</span>
+                </p>
+                <p class="about__text--sub" data-aos="fade-down" data-aos-duration="700" data-aos-offset="1300"
+                    data-aos-anchor=".banner__text">
+                    With a around 8+ in the design industry, I’ve helped brands come alive through thoughtful,
+                    resonant design that builds lasting connections.
+                </p>
+            </div>
+        </div>
+        <div class="container about profile">
+            <div class="about__text text--center contained">
+                <div class="profile--text-wrap">
+                    <p class="about__text--title profile--code font--mono" data-aos="fade-up" data-aos-duration="700"
+                        data-aos-offset="300" data-aos-anchor=".profile--text-wrap">{ PROFILE }</p>
+                    <p class="profile--text font--lay font--style-normal font--medium" data-aos="fade-up"
+                        data-aos-duration="700" data-aos-offset="350" data-aos-anchor=".profile--text-wrap">
+                        For over 8 years I have been developing digital experiences that bring brands to life and
+                        designs that builds lasting connections.
+                    </p>
+
+                    <p class="about__text--sub font--lay font--style-normal" data-aos="fade-up" data-aos-duration="700"
+                        data-aos-offset="400" data-aos-anchor=".profile--text-wrap">
+                        Specializing from experience design to front-end development, I infuse each project with
+                        character and clarity, creating digital identities that stand out and resonate.
+                    </p>
+                </div>
+                <div class="profile--code-wrap">
+                    <div class="illustration-editor">
+                        <div class="code-blocks">
+                            <div class="code code-html" data-aos="fade-right" data-aos-duration="700"
+                                data-aos-offset="500" data-aos-anchor=".profile--text-wrap">
+                                <header>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14.9999 6.675L13.1999 6.075C12.9999 5.975 12.8999 5.775 12.9999 5.675L13.8999 3.975C14.4999 2.775 13.1999 1.475 11.9999 2.075L10.2999 2.975C10.1999 3.075 9.9999 2.975 9.8999 2.775L9.2999 0.975C8.8999 -0.325 7.0999 -0.325 6.6999 0.975L6.0999 2.775C5.9999 2.975 5.7999 3.075 5.6999 2.975L3.9999 2.075C2.7999 1.475 1.4999 2.775 2.0999 3.975L2.9999 5.675C3.0999 5.775 2.9999 5.975 2.7999 6.075L0.999902 6.675C-0.300098 7.075 -0.300098 8.975 0.999902 9.375L2.7999 9.975C2.9999 9.975 3.0999 10.175 2.9999 10.275L2.0999 11.975C1.4999 13.175 2.7999 14.475 3.9999 13.875L5.6999 12.975C5.8999 12.875 6.0999 12.975 6.0999 13.175L6.6999 14.975C7.0999 16.275 8.9999 16.275 9.3999 14.975L9.9999 13.175C10.0999 12.975 10.2999 12.875 10.3999 12.975L12.0999 13.875C13.2999 14.475 14.5999 13.175 13.9999 11.975L12.9999 10.275C12.8999 10.075 12.9999 9.875 13.1999 9.875L14.9999 9.275C16.2999 8.875 16.2999 7.075 14.9999 6.675ZM7.9999 10.375C6.6999 10.375 5.5999 9.275 5.5999 7.975C5.5999 6.675 6.6999 5.575 7.9999 5.575C9.2999 5.575 10.3999 6.675 10.3999 7.975C10.3999 9.275 9.2999 10.375 7.9999 10.375Z"
+                                            fill="#4C4F5A" />
+                                    </svg>
+                                    <h1>HTML</h1>
+                                    <svg width="16" height="8" viewBox="0 0 16 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.7089 7.65105L14.8704 2.02908C15.1112 1.80937 15.2528 1.51212 15.2528 1.18902C15.2528 0.865913 15.1112 0.56866 14.8704 0.348951C14.6296 0.129241 14.3038 0 13.9497 0C13.5956 0 13.2698 0.129241 13.029 0.348951L7.75989 5.1567L2.49077 0.348951C2.24998 0.129241 1.9242 0 1.57009 0C1.21598 0 0.890202 0.129241 0.649409 0.336026C0.380287 0.568659 0.252808 0.878837 0.252808 1.18902C0.252808 1.48627 0.380286 1.78352 0.621079 2.02908C2.23581 3.51535 6.42844 7.3538 6.71173 7.6252L6.74006 7.65105C7.24998 8.11632 8.19898 8.11632 8.7089 7.65105Z"
+                                            fill="#4C4F5A" />
+                                    </svg>
+                                </header>
+                                <div class="code-content">
+                                    <code>
+          <span class="c-r">&lt;div</span> <span class="c-y">class</span><span class="c-w">=</span><span class="c-g">"rect"</span><span class="c-r">&gt;&lt;/div&gt;</span>
+        </code>
+                                </div>
+                            </div>
+                            <div class="code code-css" data-aos="fade-left" data-aos-duration="700"
+                                data-aos-offset="550" data-aos-anchor=".profile--text-wrap">
+                                <header>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14.9999 6.675L13.1999 6.075C12.9999 5.975 12.8999 5.775 12.9999 5.675L13.8999 3.975C14.4999 2.775 13.1999 1.475 11.9999 2.075L10.2999 2.975C10.1999 3.075 9.9999 2.975 9.8999 2.775L9.2999 0.975C8.8999 -0.325 7.0999 -0.325 6.6999 0.975L6.0999 2.775C5.9999 2.975 5.7999 3.075 5.6999 2.975L3.9999 2.075C2.7999 1.475 1.4999 2.775 2.0999 3.975L2.9999 5.675C3.0999 5.775 2.9999 5.975 2.7999 6.075L0.999902 6.675C-0.300098 7.075 -0.300098 8.975 0.999902 9.375L2.7999 9.975C2.9999 9.975 3.0999 10.175 2.9999 10.275L2.0999 11.975C1.4999 13.175 2.7999 14.475 3.9999 13.875L5.6999 12.975C5.8999 12.875 6.0999 12.975 6.0999 13.175L6.6999 14.975C7.0999 16.275 8.9999 16.275 9.3999 14.975L9.9999 13.175C10.0999 12.975 10.2999 12.875 10.3999 12.975L12.0999 13.875C13.2999 14.475 14.5999 13.175 13.9999 11.975L12.9999 10.275C12.8999 10.075 12.9999 9.875 13.1999 9.875L14.9999 9.275C16.2999 8.875 16.2999 7.075 14.9999 6.675ZM7.9999 10.375C6.6999 10.375 5.5999 9.275 5.5999 7.975C5.5999 6.675 6.6999 5.575 7.9999 5.575C9.2999 5.575 10.3999 6.675 10.3999 7.975C10.3999 9.275 9.2999 10.375 7.9999 10.375Z"
+                                            fill="#4C4F5A" />
+                                    </svg>
+                                    <h1>CSS</h1>
+                                    <svg width="16" height="8" viewBox="0 0 16 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.7089 7.65105L14.8704 2.02908C15.1112 1.80937 15.2528 1.51212 15.2528 1.18902C15.2528 0.865913 15.1112 0.56866 14.8704 0.348951C14.6296 0.129241 14.3038 0 13.9497 0C13.5956 0 13.2698 0.129241 13.029 0.348951L7.75989 5.1567L2.49077 0.348951C2.24998 0.129241 1.9242 0 1.57009 0C1.21598 0 0.890202 0.129241 0.649409 0.336026C0.380287 0.568659 0.252808 0.878837 0.252808 1.18902C0.252808 1.48627 0.380286 1.78352 0.621079 2.02908C2.23581 3.51535 6.42844 7.3538 6.71173 7.6252L6.74006 7.65105C7.24998 8.11632 8.19898 8.11632 8.7089 7.65105Z"
+                                            fill="#4C4F5A" />
+                                    </svg>
+                                </header>
+                                <div class="code-content">
+                                    <code>
+          <p class="line-1"><span class="c-y">.rect</span> <span>{</span></p><br/><p class="line-2"><span class="c-p">background</span><span>:</span> <span class="c-y">linear-gradient</span>( </p><br/><p class="line-3"><span class="c-o">-119deg</span>,</p><br/><p class="line-4"><span class="c-y">$gray</span> <span class="c-o">0%</span>,</p><br/><p class="line-5"><span class="c-y">$dark-gray</span> <span class="c-o">100%</span>);}</p>
+        </code>
+                                </div>
+                            </div>
+                            <div class="code code-js" data-aos="fade-left" data-aos-duration="700" data-aos-offset="600"
+                                data-aos-anchor=".profile--text-wrap">
+                                <header>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14.9999 6.675L13.1999 6.075C12.9999 5.975 12.8999 5.775 12.9999 5.675L13.8999 3.975C14.4999 2.775 13.1999 1.475 11.9999 2.075L10.2999 2.975C10.1999 3.075 9.9999 2.975 9.8999 2.775L9.2999 0.975C8.8999 -0.325 7.0999 -0.325 6.6999 0.975L6.0999 2.775C5.9999 2.975 5.7999 3.075 5.6999 2.975L3.9999 2.075C2.7999 1.475 1.4999 2.775 2.0999 3.975L2.9999 5.675C3.0999 5.775 2.9999 5.975 2.7999 6.075L0.999902 6.675C-0.300098 7.075 -0.300098 8.975 0.999902 9.375L2.7999 9.975C2.9999 9.975 3.0999 10.175 2.9999 10.275L2.0999 11.975C1.4999 13.175 2.7999 14.475 3.9999 13.875L5.6999 12.975C5.8999 12.875 6.0999 12.975 6.0999 13.175L6.6999 14.975C7.0999 16.275 8.9999 16.275 9.3999 14.975L9.9999 13.175C10.0999 12.975 10.2999 12.875 10.3999 12.975L12.0999 13.875C13.2999 14.475 14.5999 13.175 13.9999 11.975L12.9999 10.275C12.8999 10.075 12.9999 9.875 13.1999 9.875L14.9999 9.275C16.2999 8.875 16.2999 7.075 14.9999 6.675ZM7.9999 10.375C6.6999 10.375 5.5999 9.275 5.5999 7.975C5.5999 6.675 6.6999 5.575 7.9999 5.575C9.2999 5.575 10.3999 6.675 10.3999 7.975C10.3999 9.275 9.2999 10.375 7.9999 10.375Z"
+                                            fill="#4C4F5A" />
+                                    </svg>
+                                    <h1>JS</h1>
+                                    <svg width="16" height="8" viewBox="0 0 16 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.7089 7.65105L14.8704 2.02908C15.1112 1.80937 15.2528 1.51212 15.2528 1.18902C15.2528 0.865913 15.1112 0.56866 14.8704 0.348951C14.6296 0.129241 14.3038 0 13.9497 0C13.5956 0 13.2698 0.129241 13.029 0.348951L7.75989 5.1567L2.49077 0.348951C2.24998 0.129241 1.9242 0 1.57009 0C1.21598 0 0.890202 0.129241 0.649409 0.336026C0.380287 0.568659 0.252808 0.878837 0.252808 1.18902C0.252808 1.48627 0.380286 1.78352 0.621079 2.02908C2.23581 3.51535 6.42844 7.3538 6.71173 7.6252L6.74006 7.65105C7.24998 8.11632 8.19898 8.11632 8.7089 7.65105Z"
+                                            fill="#4C4F5A" />
+                                    </svg>
+                                </header>
+                                <div class="code-content">
+                                    <code>
+          <span class="c-y">var</span> <span class="c-b">colors</span> = [<span class="c-g">“#74B087”</span>, <span class="c-g">“#DE7300”</span>, <span class="c-g">“#74B087”</span>];<br/><br/>
+          <span class="c-c">// Do the thing</span><br/>
+          <span class="c-y">function</span> <span class="c-b">animate</span>() {}
+        </code>
+                                </div>
+                            </div>
+                            <!-- <div class="editor-block"></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container about experience" id="experience">
+            <div class="about__text contained">
+                <div class="experience__text text--left">
+                    <p class="about__text--title profile--code font--mono" data-aos="fade-up" data-aos-duration="700"
+                        data-aos-offset="400" data-aos-anchor=".experience__text">{ ABOUT }</p>
+                    <h3 data-aos="fade-up" data-aos-duration="700" data-aos-offset="450"
+                        data-aos-anchor=".experience__text">My Experience</h3>
+                    <p class="subheading" data-aos="fade-up" data-aos-duration="700" data-aos-offset="500"
+                        data-aos-anchor=".experience__text">Throughout my career I’ve had the privilege of working with
+                        some very talented
+                        people
+                        at a great bunch of
+                        companies.</p>
+                    <a href="https://raw.githubusercontent.com/user/repository/branch/filename"
+                        class="button download font--lay font--medium" data-aos="fade-up" data-aos-duration="700"
+                        data-aos-offset="580" data-aos-anchor=".experience__text">Download
+                        CV <span class="button--icon"><svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12.5535 16.5061C12.4114 16.6615 12.2106 16.75 12 16.75C11.7894 16.75 11.5886 16.6615 11.4465 16.5061L7.44648 12.1311C7.16698 11.8254 7.18822 11.351 7.49392 11.0715C7.79963 10.792 8.27402 10.8132 8.55352 11.1189L11.25 14.0682V3C11.25 2.58579 11.5858 2.25 12 2.25C12.4142 2.25 12.75 2.58579 12.75 3V14.0682L15.4465 11.1189C15.726 10.8132 16.2004 10.792 16.5061 11.0715C16.8118 11.351 16.833 11.8254 16.5535 12.1311L12.5535 16.5061Z"
+                                    fill="#707070" />
+                                <path
+                                    d="M3.75 15C3.75 14.5858 3.41422 14.25 3 14.25C2.58579 14.25 2.25 14.5858 2.25 15V15.0549C2.24998 16.4225 2.24996 17.5248 2.36652 18.3918C2.48754 19.2919 2.74643 20.0497 3.34835 20.6516C3.95027 21.2536 4.70814 21.5125 5.60825 21.6335C6.47522 21.75 7.57754 21.75 8.94513 21.75H15.0549C16.4225 21.75 17.5248 21.75 18.3918 21.6335C19.2919 21.5125 20.0497 21.2536 20.6517 20.6516C21.2536 20.0497 21.5125 19.2919 21.6335 18.3918C21.75 17.5248 21.75 16.4225 21.75 15.0549V15C21.75 14.5858 21.4142 14.25 21 14.25C20.5858 14.25 20.25 14.5858 20.25 15C20.25 16.4354 20.2484 17.4365 20.1469 18.1919C20.0482 18.9257 19.8678 19.3142 19.591 19.591C19.3142 19.8678 18.9257 20.0482 18.1919 20.1469C17.4365 20.2484 16.4354 20.25 15 20.25H9C7.56459 20.25 6.56347 20.2484 5.80812 20.1469C5.07435 20.0482 4.68577 19.8678 4.40901 19.591C4.13225 19.3142 3.9518 18.9257 3.85315 18.1919C3.75159 17.4365 3.75 16.4354 3.75 15Z"
+                                    fill="#707070" />
+                            </svg></span></a>
+                </div>
+                <div class="experience__grid">
+                    <div class="experience__grid--headrow experience__grid--row" data-aos="fade-up"
+                        data-aos-duration="700" data-aos-offset="700" data-aos-anchor=".experience__grid">
+                        <div class="experience__grid--role">
+                            <h6 class="font--mono">ROLE</h6>
+                        </div>
+                        <div class="experience__grid--company font--mono">COMPANY</div>
+                        <div class="experience__grid--year font--mono">YEAR</div>
+                    </div>
+                    <div class="experience__grid--row" data-aos="fade-up" data-aos-duration="700" data-aos-offset="750"
+                        data-aos-anchor=".experience__grid">
+                        <div class="experience__grid--role">
+                            <h6>Sr. UI/UX Designer</h6>
+                        </div>
+                        <div class="experience__grid--company font--lay font--medium">Odoo</div>
+                        <div class="experience__grid--year font--mono">2024-2025</div>
+                    </div>
+                    <div class="experience__grid--row" data-aos="fade-up" data-aos-duration="700" data-aos-offset="800"
+                        data-aos-anchor=".experience__grid">
+                        <div class="experience__grid--role">
+                            <h6>UI/UX Developer</h6>
+                        </div>
+                        <div class="experience__grid--company font--lay font--medium">Wipro</div>
+                        <div class="experience__grid--year font--mono">2019-2024</div>
+                    </div>
+                    <div class="experience__grid--row" data-aos="fade-up" data-aos-duration="700" data-aos-offset="850"
+                        data-aos-anchor=".experience__grid">
+                        <div class="experience__grid--role">
+                            <h6>Frontend Developer</h6>
+                        </div>
+                        <div class="experience__grid--company font--lay font--medium">Freelancing</div>
+                        <div class="experience__grid--year font--mono"> Since 2019</div>
+                    </div>
+                    <div class="experience__grid--row" data-aos="fade-up" data-aos-duration="700" data-aos-offset="900"
+                        data-aos-anchor=".experience__grid">
+                        <div class="experience__grid--role">
+                            <h6>Frontend Developer</h6>
+                        </div>
+                        <div class="experience__grid--company font--lay font--medium">SunArc Technologies</div>
+                        <div class="experience__grid--year font--mono">2016-2019</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container about experience skillset" id="skillset">
+            <div class="about__text contained">
+                <div class="experience__text text--left">
+                    <p class="about__text--title profile--code font--mono" data-aos="fade-down" data-aos-duration="700"
+                        data-aos-offset="1000" data-aos-anchor=".experience__text">{ ABOUT }</p>
+                    <h3 data-aos="fade-down" data-aos-duration="700" data-aos-offset="1050"
+                        data-aos-anchor=".experience__text">My Skillset</h3>
+                    <p class="subheading" data-aos="fade-down" data-aos-duration="700" data-aos-offset="1100"
+                        data-aos-anchor=".experience__text">Over the years, I’ve honed a versatile skill set—blending
+                        creativity and
+                        technical expertise to deliver meaningful digital experiences.</p>
+                </div>
+                <div class="experience__grid skillset__grid">
+                    <div class="skillset__grid--row">
+                        <div class=" skillset__grid--itemwrap" data-aos="fade-right" data-aos-duration="700"
+                            data-aos-offset="700" data-aos-anchor=".skillset__grid">
+                            <div class=" skillset__grid--item">
+                                <div class=" skillset__grid--itemtop font--mono">01</div>
+                                <!-- <div class=" skillset__grid--itembottom">
+                                    <p class="font--mono">
+                                        <span class="skillset__skill">Visual Design & Aesthetics</span>
+                                        <span class="skillset__skill">User-Centered Thinking</span>
+                                        <span class="skillset__skill">Proficiency with Design Tools</span>
+                                    </p>
+                                </div> -->
+                                <div class=" skillset__grid--itembottom font--lay font--medium">
+                                    <p>UI Design</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div class="skillset__grid--row">
+                        <div></div>
+                        <div class=" skillset__grid--itemwrap" data-aos="fade-left" data-aos-duration="700"
+                            data-aos-offset="1000" data-aos-anchor=".skillset__grid">
+                            <div class=" skillset__grid--item">
+                                <div class=" skillset__grid--itemtop font--mono">02</div>
+                                <div class=" skillset__grid--itembottom font--lay font--medium">
+                                    <p>Front-End Development</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillset__grid--row">
+                        <div class=" skillset__grid--itemwrap" data-aos="fade-right" data-aos-duration="700"
+                            data-aos-offset="1290" data-aos-anchor=".skillset__grid">
+                            <div class=" skillset__grid--item">
+                                <div class=" skillset__grid--itemtop font--mono">03</div>
+                                <div class=" skillset__grid--itembottom font--lay font--medium">
+                                    <p>UX Design</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div class="skillset__grid--row">
+                        <div></div>
+                        <div class=" skillset__grid--itemwrap" data-aos="fade-left" data-aos-duration="700"
+                            data-aos-offset="1580" data-aos-anchor=".skillset__grid">
+                            <div class=" skillset__grid--item">
+                                <div class=" skillset__grid--itemtop font--mono">04</div>
+                                <div class=" skillset__grid--itembottom font--lay font--medium">
+                                    <p>Performance & Accessibility</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillset__grid--row">
+                        <div class=" skillset__grid--itemwrap" data-aos="fade-right" data-aos-duration="700"
+                            data-aos-offset="1970" data-aos-anchor=".skillset__grid">
+                            <div class=" skillset__grid--item">
+                                <div class=" skillset__grid--itemtop font--mono">05</div>
+                                <div class=" skillset__grid--itembottom font--lay font--medium">
+                                    <p>Pixel-Perfect Handoff</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container about experience skillset projects" id="projects">
+            <div class="about__text contained">
+                <div class="experience__text projects__text text--left">
+                    <p class="experience__text--para" data-aos="fade-down" data-aos-duration="700"
+                        data-aos-offset="1000" data-aos-anchor=".experience__text"><span class="square"></span>Featured
+                        Work</p>
+                    <div class="projects__controls">
+                        <input type="checkbox" id="toggle" class="toggleCheckbox" checked />
+                        <label for="toggle" class='toggleContainer'>
+                            <div>All</div>
+                            <div>&nbsp;Featured&nbsp;</div>
+                        </label>
+                    </div>
+                </div>
+                <div id="projectsGrid" class="projects__grid">
+                </div>
+            </div>
+        </div>
+        <div class="container banner contact" id="contact">
+            <div class="banner__text text--left text--white contained" data-text-position="top" data-aos="flip-up"
+                data-aos-duration="1200" data-aos-offset="200" data-aos-anchor="#contact">
+                <p class="banner__text--para"><span class="square"></span>Front-end Developer</p>
+                <p><a href="javascript:void(0)" class="link link--before--nodecoration"><span
+                            class="font--mono contact--social">LINKEDIN</span></a></p>
+            </div>
+            <div class="contained" data-text-position="center">
+                <a href="mailto:rajatjn85@gmail.com"
+                    class="link link--before--nodecoration contact--row contact--row__email" data-text-position="top"
+                    data-aos="flip-up" data-aos-duration="1200" data-aos-offset="500" data-aos-anchor="#contact">
+                    <div class="contact--row__head">
+                        <span class="font--mono">EMAIL</span>
+                    </div>
+                    <div class="contact--row__content">
+                        <span href="mailto:rajatjn85@gmail.com"
+                            class="font--lay link link--before--nodecoration font--semibold">rajatjn85@gmail.com</span>
+                    </div>
+                </a>
+            </div>
+            <div class="fluid-fit banner__text text--left text--white contained" data-text-position="bottom"
+                data-aos="flip-up" data-aos-duration="1200" data-aos-offset="700" data-aos-anchor="#contact">
+                <h1 class="text--center font--lay font--semibold">Contact</h1>
+                <p class="font--mono tagline text--center">I don't just make it work, I make it delightful +
+                    performant.</p>
+            </div>
+        </div>
+        <script src="./assets/js/script.js" type="module"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.51/build/spline-viewer.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 
 </html>
