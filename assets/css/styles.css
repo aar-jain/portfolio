@@ -1050,6 +1050,10 @@ h3 + .subheading {
   }
 }
 @media (max-width: 700px) {
+  .custom-cursor,
+  .custom-cursor-2 {
+    display: none !important;
+  }
   header {
     display: none;
   }
@@ -1096,6 +1100,9 @@ h3 + .subheading {
   }
   .fluid-fit {
     font-size: clamp(32px, 9vw, 82px);
+  }
+  .projects__grid--tag {
+    margin-bottom: 10px;
   }
 }
 

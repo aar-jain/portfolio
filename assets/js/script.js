@@ -64,9 +64,6 @@ window.onload = function () {
           <div class="projects__grid--item">
             <div class="projects__grid--img">
               <img src="${project.image}" alt="${project.title}">
-              // <video autoplay loop muted playsinline>
-              //   <source src="${project.video}" type="video/mp4">
-              // </video>
             </div>
             <div class="projects__grid--title">
               <h3>${project.title}</h3>
