@@ -838,11 +838,6 @@ h3 + .subheading {
 }
 .projects__grid--itemwrap:hover .projects__grid--img {
   filter: grayscale(0);
-  border-color: #0a0a19;
-}
-.projects__grid--itemwrap:hover:hover video {
-  top: 0;
-  display: block;
 }
 .projects__grid .emptydiv {
   width: 30%;
@@ -851,7 +846,7 @@ h3 + .subheading {
   margin-bottom: 16px;
   transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
   height: 55vh;
-  overflow: hidden;
+  overflow-y: scroll;
   filter: grayscale(1);
   border: 5px solid #e6e6e6;
   position: relative;
@@ -861,7 +856,7 @@ h3 + .subheading {
   width: 100%;
   width: 100%;
   height: 100%;
-  z-index: 42;
+  z-index: -1;
   position: absolute;
   left: 0;
   right: 0;

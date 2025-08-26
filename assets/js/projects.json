@@ -14,8 +14,8 @@
     {
         "title": "Huroos",
         "url": "https://www.huroos.com/",
-        "image": "/portfolio/assets/projects/Huroos-srl.png",
-        "video": "/portfolio/assets/projects/Huroos-srl.webm",
+        "image": "/portfolio/assets/projects/Huroos-Srl.png",
+        "video": "/portfolio/assets/projects/Huroos-Srl.webm",
         "tags": [
             "UI/UX",
             "Frontend",
@@ -64,8 +64,8 @@
     {
         "title": "ARDRA Lab",
         "url": "https://www.ardralab.com/",
-        "image": "/portfolio/assets/projects/ARDRA-Lab.png",
-        "video": "/portfolio/assets/projects/ARDRA-Lab.webm",
+        "image": "/portfolio/assets/projects/Ardra-Lab.png",
+        "video": "/portfolio/assets/projects/Ardra-Lab.webm",
         "tags": [
             "Healthcare",
             "Frontend",
@@ -100,8 +100,8 @@
     {
         "title": "Hop Electric",
         "url": "https://hopelectric.in/",
-        "image": "/portfolio/assets/projects/Hop-Electric.png",
-        "video": "/portfolio/assets/projects/Hop-Electric.webm",
+        "image": "/portfolio/assets/projects/HOP-Electric.png",
+        "video": "/portfolio/assets/projects/HOP-Electric.webm",
         "tags": [
             "Automotive",
             "Corporate",
