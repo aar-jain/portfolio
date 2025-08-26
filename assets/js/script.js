@@ -54,10 +54,12 @@ window.onload = function () {
 
     projects.forEach(project => {
       const row = document.createElement("div");
-      row.classList.add("projects__grid--row");
-      row.setAttribute("data-aos", "fade-down");
-      row.setAttribute("data-aos-duration", "700");
-      row.setAttribute("data-aos-offset", "250");
+      if (window.innerWidth > 700) {
+        row.classList.add("projects__grid--row");
+        row.setAttribute("data-aos", "fade-down");
+        row.setAttribute("data-aos-duration", "700");
+        row.setAttribute("data-aos-offset", "250");
+      }
 
       row.innerHTML = `
         <a href="${project.url}" class="projects__grid--itemwrap" target="_blank">
