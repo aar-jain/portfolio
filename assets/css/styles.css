@@ -92,6 +92,7 @@ body {
   font-family: "Lay Grotesk Regular", sans-serif;
   font-weight: normal;
   letter-spacing: 0.05em;
+  overflow-x: hidden;
 }
 body .position--absolute {
   position: absolute;
@@ -131,6 +132,14 @@ body > header {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
+}
+.nav--logo {
+  height: 60px;
+  width: auto;
+  margin-right: 8px;
+  filter: invert(1) brightness(100) contrast(100);
+  aspect-ratio: 1/1;
+  padding: 5px;
 }
 .nav--parts {
   display: flex;
@@ -711,6 +720,7 @@ h3 + .subheading {
   flex-direction: column;
   width: 65%;
   margin: 0 auto;
+  overflow: hidden;
 }
 .experience__grid--row {
   display: grid;
@@ -754,6 +764,7 @@ h3 + .subheading {
   margin: 0 auto;
   margin-right: 0 !important;
   padding: 280px 24px 80px;
+  overflow: hidden;
 }
 .skillset__grid--row {
   display: grid;
@@ -810,6 +821,7 @@ h3 + .subheading {
 .projects__grid {
   padding-top: 0px;
   width: 100%;
+  overflow: hidden;
 }
 .projects__grid--row {
   display: flex;
@@ -1014,6 +1026,59 @@ h3 + .subheading {
 .contact--row__content a {
   display: inline-block;
   line-height: 0;
+}
+
+*[data-aos] {
+  overflow: hidden;
+}
+
+@media (max-width: 1440px) {
+  body .contained {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .profile .about__text {
+    padding: 4rem 20px;
+  }
+  .profile .about__text--sub {
+    max-width: 100%;
+  }
+  .about .about__text--sub {
+    max-width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  header {
+    display: none;
+  }
+  .profile--text-wrap, .profile--code-wrap {
+    width: 100%;
+  }
+  .code-blocks {
+    margin: 2rem auto 0;
+  }
+  .code-blocks .code {
+    margin: 0 auto 2rem;
+  }
+  .profile .about__text {
+    flex-flow: column wrap;
+  }
+  .experience__text, .experience__grid {
+    width: 100%;
+    position: relative !important;
+    padding-top: 50px !important;
+  }
+  .projects__grid--itemwrap {
+    width: 100%;
+  }
+  .contact--row {
+    flex-flow: column wrap;
+    gap: 1rem;
+    max-width: 100%;
+  }
+  .contact h1 {
+    font-size: 100px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,9 +1,6 @@
 window.onload = function () {
   AOS.init();
 
-  // This code will execute only after the entire page,
-  // including all resources like images and scripts, has finished loading.
-  console.log("All page elements have loaded!");
   // You can now safely interact with all elements on the page.
   const customCursor = document.querySelector('.custom-cursor');
   const customCursor2 = document.querySelector('.custom-cursor-2');
