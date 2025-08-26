@@ -1253,6 +1253,10 @@ h3 {
 
     .experience {
 
+        & .about__text {
+            gap: 4rem;
+        }
+
         &__text,
         &__grid {
             width: 100%;

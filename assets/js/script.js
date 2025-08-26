@@ -1,6 +1,13 @@
 window.onload = function () {
   AOS.init();
 
+  if (window.innerWidth < 701) {
+    const aosElements = document.querySelectorAll('[data-aos]');
+    aosElements.forEach(el => {
+      el.setAttribute('data-aos-offset', '100');
+    });
+  }
+
   // You can now safely interact with all elements on the page.
   const customCursor = document.querySelector('.custom-cursor');
   const customCursor2 = document.querySelector('.custom-cursor-2');
@@ -123,3 +130,12 @@ window.onscroll = function () {
     }
   });
 };
+
+window.onresize = function () {
+  if (window.innerWidth < 701) {
+    const aosElements = document.querySelectorAll('[data-aos]');
+    aosElements.forEach(el => {
+      el.setAttribute('data-aos-offset', '100');
+    });
+  }
+}

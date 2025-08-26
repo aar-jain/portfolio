@@ -1065,6 +1065,9 @@ h3 + .subheading {
   .profile .about__text {
     flex-flow: column wrap;
   }
+  .experience .about__text {
+    gap: 4rem;
+  }
   .experience__text, .experience__grid {
     width: 100%;
     position: relative !important;
