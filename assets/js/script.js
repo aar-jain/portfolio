@@ -1,12 +1,11 @@
 window.onload = function () {
-  AOS.init();
-
-  if (window.innerWidth < 701) {
-    const aosElements = document.querySelectorAll('[data-aos]');
-    aosElements.forEach(el => {
-      el.setAttribute('data-aos-offset', '100');
-    });
-  }
+  AOS.init({
+    disable: function () {
+      var maxWidth = 701; // Adjust this value as needed for your mobile breakpoint
+      return window.innerWidth < maxWidth;
+    },
+    // other AOS options
+  });;
 
   // You can now safely interact with all elements on the page.
   const customCursor = document.querySelector('.custom-cursor');
