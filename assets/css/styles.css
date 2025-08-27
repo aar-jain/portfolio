@@ -428,7 +428,6 @@ h3 + .subheading {
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 .about__text--title {
   font-size: 3rem;
@@ -1050,6 +1049,9 @@ h3 + .subheading {
   }
 }
 @media (max-width: 700px) {
+  .about {
+    overflow: hidden;
+  }
   .custom-cursor,
   .custom-cursor-2 {
     display: none !important;

@@ -491,7 +491,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    // overflow: hidden;
 
     &__text {
         &--title {
@@ -1225,6 +1225,9 @@ h3 {
 }
 
 @media (max-width: 700px) {
+    .about {
+        overflow: hidden;
+    }
 
     .custom-cursor,
     .custom-cursor-2 {
